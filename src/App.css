@@ -269,3 +269,10 @@ h1 {
 }
 
 
+.skill {
+  text-align: center;
+}
+
+.skill p {
+  margin-top: 10px;
+}
