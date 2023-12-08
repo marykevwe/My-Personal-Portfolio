@@ -8,19 +8,20 @@ function Skills() {
     <div className='flex'>
 
       <div className="skill">
-        <img src="src/assets/react.svg" alt="React" />
+        <div className='still-img1'>
+        <img src="src/assets/react.svg" alt="React" /></div>
         <p>React</p>
       </div>
       <div className="skill">
-        <img src="src/assets/html2.png" alt="HTML" />
+      <div className='still-img2'> <img src="src/assets/html2.png" alt="HTML" /></div>
         <p>HTML</p>
       </div>
       <div className="skill">
-        <img src="src/assets/JavaScript_logo_2.svg" alt="JavaScript" />
+       <div className='still-img3'> <img src="src/assets/JavaScript_logo_2.svg" alt="JavaScript" /></div>
         <p>JavaScript</p>
       </div>
       <div className="skill">
-        <img src="src/assets/Github.logo.png" alt="Redux" />
+      <div className='still-img4'> <img src="src/assets/Github.logo.png" alt="github" /></div>
         <p>Github</p>
       </div>
     </div>
