@@ -136,22 +136,22 @@ a:hover {
 }
 
 .mobile-nav {
-  display: none; /* Initially hide the mobile navigation */
+  display: none; 
 }
 
 .mobile-nav-icon {
-  display: none; /* Initially hide the mobile navigation icon */
+  display: none; 
   cursor: pointer;
 }
 
-/* Media query for screens smaller than 600px (adjust the value as needed) */
+
 @media screen and (max-width: 600px) {
   .ul-desktop {
-    display: none; /* Hide the desktop navigation on smaller screens */
+    display: none; 
   }
 
   .mobile-nav {
-    display: flex; /* Show the mobile navigation */
+    display: flex; 
     flex-direction: column;
     align-items: center;
     position: fixed;
@@ -163,7 +163,7 @@ a:hover {
   }
 
   .mobile-nav-icon {
-    display: block; /* Show the mobile navigation icon */
+    display: block; 
     margin-right: 20px;
     font-size: 24px;
   }
@@ -245,7 +245,7 @@ button:hover {
   width: 100%;
   height: 50px;
   display: flex;
-  justify-content: space-around; /* Adjust the alignment as needed */
+  justify-content: space-around; 
 }
 
 .social-icons {
@@ -254,18 +254,18 @@ button:hover {
 }
 
 .social-icons a {
-  margin-right: 10px; /* Add spacing between the social icons */
+  margin-right: 10px; 
 }
 
-/* Media query for screens smaller than 600px (adjust the value as needed) */
+
 @media screen and (max-width: 600px) {
   .footer {
-    flex-direction: column; /* Stack the items vertically on smaller screens */
+    flex-direction: column; 
     align-items: center;
   }
 
   .social-icons {
-    margin-bottom: 10px; /* Add spacing between the social icons and the copyright text */
+    margin-bottom: 10px;  
   }
 }
 
@@ -278,7 +278,6 @@ h1 {
 
 }
 
-/* Original styling for larger screens */
 .container {
   background-color: white;
   color: brown;
@@ -298,42 +297,42 @@ h1 {
   color: red;
 }
 
-/* Media query for screens smaller than 600px (adjust the value as needed) */
+
 @media screen and (max-width: 600px) {
   .flex {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column; 
   }
 
   .container {
-    width: 30%; /* Make containers full width on smaller screens */
-    margin-bottom: 10px; /* Add margin between containers on smaller screens */
+    width: 30%; 
+    margin-bottom: 10px; 
   }
 }
-/* Original styling for larger screens */
+
 .containerabout {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   color: brown;
   padding: 20px;
-  margin-top: px; /* Remove this line, it's not a valid value for margin-top */
+  margin-top: px; 
   width: 1000px;
   height: 350px;
   border: 2px solid brown;
-  display: flex; /* Add display: flex; to use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
   margin-bottom: 100px;
 }
 
 
-/* Media query for screens smaller than 600px (adjust the value as needed) */
+
 @media screen and (max-width: 600px) {
   .containerabout {
-    width: 60%; /* Adjust the width as needed for smaller screens */
-    max-width: 600px; /* Add max-width to prevent container from becoming too wide */
-    height: auto; /* Allow the height to adjust based on content */
+    width: 60%; 
+    max-width: 600px; 
+    height: auto; 
   }
 }
 
